@@ -1,0 +1,6 @@
+venv
+secure_files
+hash_db.json
+security.log
+smtp_config.json
+
