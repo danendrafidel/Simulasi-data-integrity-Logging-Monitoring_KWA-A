@@ -22,7 +22,13 @@ python monitor.py --dir ./secure_files
 python monitor.py --dir ./secure_files --watch --interval 5 --smtp-config smtp_config.json
 ```
 
-4. Jalankan web interface
+4. Update Baseline
+
+```
+python3 monitor.py --auto-update
+```
+
+5. Jalankan web interface
 
 ```
 python app.py
